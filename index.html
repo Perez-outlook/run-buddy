@@ -86,6 +86,7 @@
   <!-- "what we do" section -->
   <section id = "what-we-do" class = "intro">
     <h2 class ="section-title primary-border">What We Do</h2>
+    <div class = "flex-row">
     <p>
       butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOX Tumblr normcore
        Banksy direct trade Blue Bottle chillwave you probably haven't heard of them
@@ -129,9 +130,9 @@
     </h2>
     <article class="trainer">
       <img src="./assets/images/trainer-1.jpg" alt ="Arron Stephen in his workout clothes, ready to pump iron "/>
-      <div class ="trainer-bio text-left">
-        <h3>Arron Stephens</h3>
-        <h4>Speed/ Strength</h4>
+      <div class ="trainer-bio">
+        <h3 class ="trainer-name">Arron Stephens</h3>
+        <h4 class="trainer-role">Speed/ Strength</h4>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe
            culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, 
@@ -141,42 +142,49 @@
          </article>
    <!-- second trainer bio -->
      <article class="trainer">
+      <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
       <div class="trainer-bio text-right">
-       <h3>Joanna Gill</h3>
-       <h4>Endurance</h4>
+      <h3 class ="trainer-name">Joanna Gill</h3>
+      <h4 class="trainer-role">Endurance</h4>
         <p>
          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
        </p>
       </div>
-     <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+     
 </article>
 <!-- third trainer bio -->
 
     <article class="trainer">
      <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
      <div class="trainer-bio text-left">
-      <h3>Harry "the Headband" Smith</h3>
-       <h4>Strength</h4>
+      <h3 class ="trainer-name">Harry "the Headband" Smith</h3>
+      <h4 class="trainer-role">Strength</h4>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
           itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-      </p>
+      </p><div class="step">
+        <h3>Step 1.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="./assets/images/step-1.svg" alt="" />
+          </div>
+          <div class="step-text">
+            <h4>Fill Out The Form Above</h4>
+            <p>You're already here, so why not?</p>
+          </div>
+        </div>
+      </div>
      </div>
    </article>
   </section>
   
-  <!-- "reach out" section -->
-    <section id ="reach out" class = "contact">
-      <h2 class = "section-title secondary-bordre">Reach Out</h2>
-      <div class = "contact-info">  
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4571697042734!2d-122.45955008411762!3d37.87298997974157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085847d307539ed%3A0xbd87f07ee8e05850!2s55%20Main%20St%2C%20Belvedere%20Tiburon%2C%20CA%2094920!5e0!3m2!1sen!2sus!4v1631370354190!5m2!1sen!2sus"  
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy">
-    </iframe>
-    </div>
-    <div>
+ 
+
+    
+
+    <div class="contact-info">
+  <div>
       <h3>Run Buddy</h3>
       <p>
         Any questions or concerns before signing up?
@@ -190,6 +198,25 @@
           P:555.RUN.BUDZ(555.786.2839)<br/>
           E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
           </address>
+      </div>
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />
+      
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+         <!-- "reach out" section -->
+    <section id ="reach out" class = "contact">
+      <h2 class = "section-title secondary-bordre">Reach Out</h2>
+      <div class = "contact-info">  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4571697042734!2d-122.45955008411762!3d37.87298997974157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085847d307539ed%3A0xbd87f07ee8e05850!2s55%20Main%20St%2C%20Belvedere%20Tiburon%2C%20CA%2094920!5e0!3m2!1sen!2sus!4v1631370354190!5m2!1sen!2sus"  
+      frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
       </div>
   </section>
   
